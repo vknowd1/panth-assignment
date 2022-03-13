@@ -9,7 +9,7 @@ import pandas as pd
 
 lst1 = [{"id": 1, "x": "one"}, {"id": 2, "x": "two"}]
 lst2 = [{"id": 2, "x": "two"}, {"id": 3, "x": "three"}]
-
+    
 lst1_ds = pd.DataFrame(lst1)
 lst2_ds = pd.DataFrame(lst2)
 lst_concat_ds = pd.concat([lst1_ds, lst2_ds])
